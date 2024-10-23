@@ -1,7 +1,14 @@
 ## How to Use:
 
+
+**Setup Environment:**
+
+Create new environment using `conda create -n pandasai python=3.10`
+
+Install dependencies using `pip install -r requirements.txt`
+
 **Run the App:**
-Within the project directory, execute `streamlit run main.py` to launch the Streamlit app in your web browser.
+Within the project directory, execute `streamlit run main.py --server.maxUploadSize 1024` to launch the Streamlit app.
 
 **Interact with the App:**
 

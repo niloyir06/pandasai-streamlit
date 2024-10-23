@@ -168,7 +168,7 @@ def get_agent(data,llm):
     MOS - Months of stock remaining for a given product
     MOSTypeName - Data is classified into distinct classes based on the MOS value
     """
-    agent.train(data_description)
+    agent.train(docs = data_description)
 
 
 

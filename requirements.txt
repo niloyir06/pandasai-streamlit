@@ -1,5 +1,4 @@
 pandas
-numpy
 plotly
 streamlit
 pandasai
@@ -9,3 +8,4 @@ google-generativeai
 python-dotenv
 xlrd
 openpyxl
+numpy==1.26.4
